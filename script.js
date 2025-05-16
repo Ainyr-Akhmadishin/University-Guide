@@ -2438,7 +2438,7 @@ var viewer = pannellum.viewer('panorama', {
                     sceneId: '7_build'
                 },
                 {
-                    pitch: 0,
+                    pitch: 5,
                     yaw: 0,
                     type: 'scene',
                     text: 'Зайти в шестой корпус',
