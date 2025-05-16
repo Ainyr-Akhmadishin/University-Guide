@@ -3503,7 +3503,7 @@ var viewer = pannellum.viewer('panorama', {
                 },
                 
                 {
-                    pitch: 0,
+                    pitch: -5,
                     yaw: -90,
                     type: 'scene',
                     text: 'Зайти в библиотеку',
