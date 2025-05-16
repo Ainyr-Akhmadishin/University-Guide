@@ -55,13 +55,13 @@ var viewer = pannellum.viewer('panorama', {
                     pitch: 10,
                     yaw: -60,
                     type: 'info',
-                    text: '9 корпус'
+                    text: 'Девятый корпус'
                 },
                 {
                     pitch: 5,
                     yaw: -90,
                     type: 'info',
-                    text: '8 корпус'
+                    text: 'Восьмой корпус\nИнститут технологий и материалов (ИТМ)'
                 },
             ]
         },
@@ -930,7 +930,7 @@ var viewer = pannellum.viewer('panorama', {
                     sceneId: 'Main_yard'
                 },
                 {
-                    pitch: 0,
+                    pitch: 5,
                     yaw: 0,
                     type: 'scene',
                     text: 'Зайти во второй корпус',
@@ -942,7 +942,13 @@ var viewer = pannellum.viewer('panorama', {
                     type: 'scene',
                     text: 'Перейти в шестой корпус',
                     sceneId: '6_build'
-                }
+                },
+                {
+                    pitch: 5,
+                    yaw: 20,
+                    type: 'info',
+                    text: 'Факультет авиационных двигателей, энергетики и транспорта (ФАДЭТ)',
+                },
             ]
         },
         '2_build_1floor_1': {
@@ -1393,6 +1399,12 @@ var viewer = pannellum.viewer('panorama', {
                     text: 'Зайти в третий корпус',
                     sceneId: '3_build_1floor'
                 }, 
+                {
+                    pitch: 0,
+                    yaw: 10,
+                    type: 'info',
+                    text: 'Институт экономики, управления и бизнеса (ИНЭБ) ',
+                }, 
             ]
         },   
         '3_build_1floor':{
@@ -1416,7 +1428,8 @@ var viewer = pannellum.viewer('panorama', {
                     type: 'scene',
                     text: 'Подняться на второй этаж',
                     sceneId: '3_build_2floor_1'
-                },        
+                },     
+                
                 
             ]
         },
@@ -2197,7 +2210,7 @@ var viewer = pannellum.viewer('panorama', {
                     pitch: -3,
                     yaw: -95,
                     type: 'scene',
-                    text: 'Перейти в четвёртый корпус',
+                    text: 'Перейти в четвёртый корпус(ИХЗЧС,ПИШ,ИЭТИ)',
                     sceneId: '4_build_1floor_L3'
                 },
                 
@@ -2244,7 +2257,7 @@ var viewer = pannellum.viewer('panorama', {
                         pitch: 0,
                         yaw: 92,
                         type: 'scene',
-                        text: 'Перейти в четвёртый корпус',
+                        text: 'Перейти в четвёртый корпус(ИХЗЧС,ПИШ,ИЭТИ)',
                         sceneId: '5_build_2floor_2'
                     },
                     {
@@ -2279,7 +2292,7 @@ var viewer = pannellum.viewer('panorama', {
                         pitch: -5,
                         yaw: 15,
                         type: 'scene',
-                        text: 'Перейти в четвёртый корпус',
+                        text: 'Перейти в четвёртый корпус(ИХЗЧС,ПИШ,ИЭТИ)',
                         sceneId: '4_build_2floor_L2'
                     },
                     {
@@ -2304,7 +2317,7 @@ var viewer = pannellum.viewer('panorama', {
                         pitch: 0,
                         yaw: 92,
                         type: 'scene',
-                        text: 'Перейти в четвёртый корпус',
+                        text: 'Перейти в четвёртый корпус(ИХЗЧС,ПИШ,ИЭТИ)',
                         sceneId: '5_build_3floor_R2'
                     },
                     {
@@ -2344,7 +2357,7 @@ var viewer = pannellum.viewer('panorama', {
                         pitch: -2,
                         yaw: -16  ,
                         type: 'scene',
-                        text: 'Перейти в четвёртый корпус',
+                        text: 'Перейти в четвёртый корпус(ИХЗЧС,ПИШ,ИЭТИ)',
                         sceneId: '4_build_3floor_L2'
                     },   
                     
@@ -2450,6 +2463,12 @@ var viewer = pannellum.viewer('panorama', {
                     yaw: 200,
                     type: 'info',
                     text: 'Самолёт  МиГ-19\n------------------------------------\n Сверхзвуковой всепогодный истребитель-перехватчик с номером«31», эксплуатировавшийся с 1956 по 1967 г. и совершивший 1033 полёта более чем 100 лётчиков. Самолет прибыл в вуз как учебное пособие и стал визитной карточкой УГАТУ с девизом «Штурмующим, дерзающим, творящим».'
+                },
+                {
+                    pitch: 5,
+                    yaw: 20,
+                    type: 'info',
+                    text: 'Институт информатики, математики и робототехники (ИИМРТ) '
                 },
             ]
         },
@@ -3155,7 +3174,7 @@ var viewer = pannellum.viewer('panorama', {
                     pitch: 10,
                     yaw: 110,
                     type: 'info',
-                    text: 'Восьмой корпус'
+                    text: 'Восьмой корпус\nИнститут технологий и материалов (ИТМ)'
                 },
                 {
                     pitch: 15,
