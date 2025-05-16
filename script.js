@@ -3518,45 +3518,6 @@ var viewer = pannellum.viewer('panorama', {
                 
             ]
         },
-        '7_build_3floor_Lib': {
-            title: '7 корпус 3 этаж',
-            type: 'equirectangular',
-            panorama: 'img/7_build/3_floor/7_build_3floor_Lib.jpg',
-            pitch: 0, 
-            yaw: 0,
-            hotSpots: [
-                
-                {
-                    pitch: -5,
-                    yaw: -10,
-                    type: 'info',
-                    text: 'Библиотека(4-5 этажи)',
-                },
-                {
-                    pitch: -5,
-                    yaw: 10,
-                    type: 'scene',
-                    text: 'Спуститься на второй этаж',
-                    sceneId: '7_build_2floor_MF'
-                },
-                
-                {
-                    pitch: -5,
-                    yaw: -90,
-                    type: 'scene',
-                    text: 'Зайти в библиотеку',
-                    sceneId: '7_build_3floor_Lib2'
-                },
-                {
-                    pitch: -5,
-                    yaw: -60,
-                    type: 'info',
-                    text: 'Библиотека\n---------------------------\n Предоставляет бесплатный доступ к большому фонду печатных и электронных изданий: учебной, научной, учебно-методической, технической и справочной литературы. В фонде имеются монографии, учебники, диссертации, периодика, энциклопедии и словари по разным направлениям обучения. Для пользователей доступны абонемент, читальный зал и компьютерный класс с интернетом.',
-                    sceneId: '7_build_2floor_Lib2'
-                },
-                
-            ]
-        },
         '7_build_3floor_Lib2': {
             title: 'Библиотека',
             type: 'equirectangular',
